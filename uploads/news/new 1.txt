@@ -1,0 +1,24 @@
+Java Web Development and Architecture
+
+Layered Architecture in Software
+	Presentation Layer
+		Display the user interface and manage interaction
+	Application Layer (Buisness Layer)
+		Contain buisness logics and rules
+	Service Layer
+		Expose buisness logics through API / services 
+	Data Layer
+		Manage data storage and retriver
+		
+Tier Architecture
+	One tier architecture
+		All layers resides on the same machine
+			Ex : MS office
+	Two tier architecture
+		Client handles UI + logics
+		Server handles DataBase (this is we called client server architecture)
+	Three tier architecture
+		UI, Logic and Data layers are seperated across client, server and database
+	N- tier architecture
+		Distributed multi-layer architecture (Scalable business logic)
+		
